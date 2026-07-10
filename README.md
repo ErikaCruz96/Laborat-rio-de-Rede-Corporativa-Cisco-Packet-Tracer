@@ -1,14 +1,18 @@
-# Projeto de Rede Empresarial
+# Enterprise Network Project
 
-## 📌 Descrição
+## 📌 Description
 
-Este projeto foi desenvolvido no Cisco Packet Tracer com o objetivo de simular a infraestrutura de rede de uma empresa, aplicando conceitos de segmentação, roteamento e endereçamento IPv4/IPv6.
+This project was developed using Cisco Packet Tracer to simulate an enterprise network infrastructure, applying concepts of network segmentation, routing, and IPv4/IPv6 addressing.
 
-Foram dividos três departamentos (Recepção, Administração e Financeiro), cada um com sua própria rede lógica, visando melhorar a organização, o desempenho e a segurança da comunicação, de modo que a Recepção consegue ter acesso as informações de diferentes setores (cadastro de clientes, encaminhamento de documentos, informações financeiras, etc), enquanto o Financeiro e a Administração não conversam diretamente entre si.
+The network is divided into three departments: **Reception**, **Administration**, and **Finance**, each with its own logical network to improve organization, performance, and communication security.
 
-Além da rede interna, o projeto inclui uma operadora simulada e um servidor externo para representar o acesso a serviços fora da rede corporativa.
+The **Reception** department is allowed to access resources from both the **Administration** and **Finance** departments, enabling tasks such as customer registration, document forwarding, and financial inquiries. However, direct communication between the **Administration** and **Finance** departments is restricted to enhance network security.
 
-## 🛠 Tecnologias
+In addition to the internal network, the project includes a simulated Internet Service Provider (ISP) and an external server to represent access to services outside the corporate network.
+
+---
+
+## 🛠 Technologies
 
 - Cisco Packet Tracer
 - VLAN
@@ -16,4 +20,20 @@ Além da rede interna, o projeto inclui uma operadora simulada e um servidor ext
 - IPv6
 - DHCP
 - DNS
-- Roteamento
+- Routing
+
+  ## Network Topology
+
+> <img width="1062" height="403" alt="Topologia" src="https://github.com/user-attachments/assets/04a23bd9-3ab0-4088-a65f-c74085bdd10d" />
+
+
+  ---
+
+## Author
+
+**Érika Henrichs Ribeiro da Cruz**
+
+IT professional transitioning to Network Infrastructure and Technical Support.
+
+- LinkedIn: www.linkedin.com/in/érika-henrichs-ribeiro-da-cruz-7a97a9344
+- GitHub: https://github.com/ErikaCruz96
